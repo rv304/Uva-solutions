@@ -6,9 +6,9 @@ unsigned long int a,b;
 while(scanf("%lu %lu",&a,&b)==2)
 {
 if(a>b)
-printf("%d",a-b);
+printf("%d\n",a-b);
 else 
-printf("%d",b-a);
+printf("%d\n",b-a);
 }
 
 return 0;
